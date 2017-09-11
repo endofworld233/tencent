@@ -7,6 +7,9 @@
 //范例：
 // 输入 1024 1024
 // 输出 1
+
+//思路：没啥思路，直接撸。
+
 #include <iostream>
 #include <string>
 #include <vector>

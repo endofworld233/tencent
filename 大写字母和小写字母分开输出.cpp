@@ -6,6 +6,7 @@
 // 输出描述:
 // 对于每组数据，输出移位后的字符串。
 
+//思路：题目中说了不能申请额外空间。。。其实简单，直接遍历输出就行了，让小写字母先输出即可。。
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -19,7 +20,7 @@ int main(){
             for(int i = 0; i < s.length(); i++)
                 if(s[i] <= 'Z' && s[i] >= 'A')
                     cout << s[i];
-            cout << endl;//开始没写这个老是通不过...
+            cout << endl;
         }
     }
     return 0;

@@ -5,6 +5,7 @@
 // [1,2,3,2,2],5
 // 返回：2
 
+//思路：维护一个统计价格出现次数的hash表，然后遍历该哈希表就行。
 class Gift {
 public:
     int getValue(vector<int> gifts, int n) {

@@ -11,6 +11,8 @@
 // 10
 // 输出
 // 2
+
+//思路：简单题，注意控制循环的长度，容易超时
 #include <iostream>
 #include <cmath>
 using namespace std;
